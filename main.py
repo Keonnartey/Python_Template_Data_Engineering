@@ -5,8 +5,8 @@ car = pd.read_csv(r"https://gist.githubusercontent.com/seankross/a412dfbd88b3db7
 #print(car.head())
 #print(car["mpg"])
 
-def max(x) -> float:
+def max_cars(x) -> float:
     x = car["mpg"].max()
     return x
 
-max()
+max_cars()
